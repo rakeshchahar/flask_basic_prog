@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="contaier">
+		<br>
+		<h2>Enter your Details and Marks!!</h2>
+		<br>
+	<form action="" class="form-inline" method="post">
+	Student Name <input type="text" class="form-control" name="sname" value="{{request.form.sname}}" required>
+	<br><br>
+	MATHS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="form-control" name="math" value="{{request.form.math}}">
+	<br><br>
+	PHYSICS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form-control" name="phy" value="{{request.form.phy}}">
+	<br><br>
+	ENGLISH&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  class="form-control" name="eng" value="{{request.form.eng}}">
+	<br><br>
+	&nbsp;&nbsp;<input type="submit" class="btn btn-default" name="Submit" value="Submit">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="reset" class="btn btn-default" name="Reset" value="Reset">
+	</form>
+		
+	</div>
+
+</body>
+</html>

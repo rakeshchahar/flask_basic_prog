@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student marks</title>
+</head>
+<body>
+<div>
+<table border="10", cellpadding="30" cellspacing="5">
+<h1>Hello  {{sname}} !!Your Marks are as follows</h1>
+{% for key,value in result.iteritems() %}
+<tr>
+	<th>
+		{{key}}
+	</th>
+	<td>
+		{{value}}
+	</td>
+</tr>
+	
+{% endfor  %}
+</table>
+</div>
+</body>
+</html>
